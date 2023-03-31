@@ -40,6 +40,15 @@
                 Console.WriteLine("When ready press 'enter'");
                 Console.ReadLine();
             }
+
+            bool audienceRight = true, percentRight = true, phoneRight = true;
+            int safe = 0;
+
+            int questionNo = 1, prize, dam;
+            int audiencePercentageA, audiencePercentageB, audiencePercentageC, audiencePercentageD;
+            bool hideA, hideB, hideC, hideD;
+            string question, a, b, c, d;
+            char answer;
         }
     }
 }
