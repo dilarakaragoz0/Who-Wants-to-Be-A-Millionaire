@@ -49,6 +49,26 @@
             bool hideA, hideB, hideC, hideD;
             string question, a, b, c, d;
             char answer;
+
+            #region Question Information
+            questionNo = 1;
+            question = "Where is the capital of Turkey?";
+            a = "Ankara";
+            b = "Bursa";
+            c = "Van";
+            d = "Denizli";
+            answer = 'A';
+            prize = 1000;
+            dam = 0;// TODO: Relationship between questionNo and dam.
+
+            // TODO: There should be random values associated with QuestionNo.
+            audiencePercentageA = 80; audiencePercentageB = 10;
+            audiencePercentageC = 5; audiencePercentageD = 5;
+
+            // TODO: Daha iyi olabirlir mi? Her seferinde bunu tekrarlamaya gerek yok gibi.
+            hideA = false; hideB = false;
+            hideC = false; hideD = false;
+            #endregion
         }
     }
 }
