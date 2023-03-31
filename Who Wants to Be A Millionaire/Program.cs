@@ -30,6 +30,16 @@
                 // TODO: Add rules.
                 Console.WriteLine("Rules: ...");
             }
+
+            Console.Write("Are you ready?: ");
+            char readyAnswer = char.Parse(Console.ReadLine().ToUpper());
+
+            if (readyAnswer != 'Y')
+            {
+                Console.WriteLine("You are expected to be ready.");
+                Console.WriteLine("When ready press 'enter'");
+                Console.ReadLine();
+            }
         }
     }
 }
