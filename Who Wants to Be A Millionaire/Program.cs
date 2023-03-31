@@ -11,6 +11,14 @@
             string name = Console.ReadLine();
             Console.Write("Enter last name: ");
             string lastName = Console.ReadLine();
+
+            Console.Write("\n1.Enter the phone wildcard: ");
+            string phoneWildcard1 = Console.ReadLine();
+            Console.Write("2.Enter the phone wildcard: ");
+            string phoneWildcard2 = Console.ReadLine();
+            Console.Write("3.Enter the phone wildcard: ");
+            string phoneWildcard3 = Console.ReadLine();
+
         }
     }
 }
