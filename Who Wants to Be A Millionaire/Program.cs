@@ -51,6 +51,7 @@
             char answer;
 
             #region Question Information
+
             questionNo = 1;
             question = "Where is the capital of Turkey?";
             a = "Ankara";
@@ -71,6 +72,7 @@
         #endregion
 
         #region Question Form
+
         questionPoint:
             Console.Clear();
             Console.WriteLine(questionNo + "-)" + question);
