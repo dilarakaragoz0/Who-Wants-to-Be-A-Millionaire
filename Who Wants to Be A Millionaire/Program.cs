@@ -20,7 +20,16 @@
             string phoneWildcard3 = Console.ReadLine();
 
             Console.Clear();
-            Console.WriteLine("Hoşgeldiniz " + name + " " + lastName);
+            Console.WriteLine("Welcome " + name + " " + lastName);
+
+            Console.Write("Do you know the rules?: ");
+            char ruleAnswer = char.Parse(Console.ReadLine().ToUpper());
+
+            if (ruleAnswer != 'Y')
+            {
+                // TODO: Add rules.
+                Console.WriteLine("Rules: ...");
+            }
         }
     }
 }
