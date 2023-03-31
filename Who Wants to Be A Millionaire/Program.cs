@@ -19,6 +19,8 @@
             Console.Write("3.Enter the phone wildcard: ");
             string phoneWildcard3 = Console.ReadLine();
 
+            Console.Clear();
+            Console.WriteLine("Hoşgeldiniz " + name + " " + lastName);
         }
     }
 }
